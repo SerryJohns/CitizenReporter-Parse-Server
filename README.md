@@ -41,12 +41,15 @@ You will now have a `MONGO_URL` environment variable. Set up other environment v
 > dokku config:set <app_name> APP_NAME=<APP_NAME>
 ```
 
-Clone `https://github.com/parse-community/parse-server` and then add the dokku remote
+Clone `https://github.com/phillipahereza/CitizenReporter-Parse-Server` and then add the dokku remote
 
 ```shell
 > git remote add dokku dokku@my.dokku.me:parse
 > git push dokku master
 ```
+
+The dashboard will be available at `<url>/dashboard`
+
 
 ### Bonus: Let's Encrypt
 
